@@ -29,15 +29,15 @@
             <description>Construction Foreman - Allows you to research construction related upgrades &amp; abilities, such as intersecting runways and more.</description>
         </Foreman>
         <Janitor>
-            <name>Janitor</name>
+            <name>Pulizie</name>
             <description>Cleans up trash around the airport, schedules garbage pickup to avoid getting shut down.</description>
         </Janitor>
         <Laborer>
-            <name>Laborer</name>
+            <name>Operaio</name>
             <description></description>
         </Laborer>
         <Passenger>
-            <name>Passenger</name>
+            <name>Passeggero</name>
             <description></description>
         </Passenger>
         <Pilot>
@@ -113,8 +113,8 @@
         <generic>
             <AircraftGate>Aircraft Gate</AircraftGate>
             <ConveyorTransition>Conveyor Transition</ConveyorTransition>
-            <Stairs>Stairway</Stairs>
-            <Escalator>Escalator</Escalator>
+            <Stairs>Scale</Stairs>
+            <Escalator>Scale mobili</Escalator>
         </generic>
         
         <!-- non-placeable -->
@@ -172,11 +172,11 @@
             <description>Helps keep passengers entertained while earning you $5 per transaction in the process.</description>
         </ApparelStand>
         <ATCTower>
-            <name>ATC Tower</name>
+            <name>Torre di controllo</name>
             <description>Allows scheduling of more than 10 flights per day.</description>
         </ATCTower>
         <ATM>
-            <name>ATM</name>
+            <name>Bancomat</name>
             <description>Makes passengers happy while earning you $5 per transaction.</description>
         </ATM>
         <BagScanner>
@@ -188,11 +188,11 @@
             <description>Connects to underground conveyor system for an automated baggage solution.</description>
         </BaggageCarousel>
         <Bar-Large>
-            <name>Bar - Large</name>
+            <name>Bar - Largo</name>
             <description></description>
         </Bar-Large>
         <Bar-Small>
-            <name>Bar - Small</name>
+            <name>Bar - Piccolo</name>
             <description></description>
         </Bar-Small>
         <Bench>
@@ -522,7 +522,7 @@
             <description>Used to monitor the results of one or more assigned Remote Bag Scanner devices.</description>
         </RemoteSecurityStation>
         <SecurityExit>
-            <name>Security Exit</name>
+            <name>Uscita dell'area sicura</name>
             <description>A secure-area boundary, this allows passengers to transition to non-secure areas.</description>
         </SecurityExit>
         <Sink>
