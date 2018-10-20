@@ -37,7 +37,7 @@ SimAirport is a trademark of LVGameDev LLC.</copyright>
                 <title>Inizia una nuova partita</title>
                 <mode>
                     <title>Modalità di gioco</title>
-                    <mode0>Modalità Sandbox</mode0>
+                    <mode0>Modalità Libera</mode0>
                     <mode1>Modalità Carriera</mode1>
                     <tt>
                         <desc0>Scegli il tuo stile di gioco</desc0>
@@ -45,7 +45,7 @@ SimAirport is a trademark of LVGameDev LLC.</copyright>
                         <desc2>Non puoi spendere soldi quando hai un bilancio in negativo</desc2>
                         <desc3>Bancarotta e fine della partita se rimani in negativo per 48 ore</desc3>
                         <desc4>Inizia con una mappa di medie dimensioni</desc4>
-                        <desc5>Fondi illimitati, no fallimento!</desc5>
+                        <desc5>Fondi illimitati, nessun fallimento!</desc5>
                         <desc6>Money IS still tracked</desc6>
                         <desc7>Puoi continuare a spendere, anche con un bilancio negativo</desc7>
                         <desc8>Il gioco non finisce mai per il fallimento</desc8>
@@ -139,9 +139,9 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
             <gameplay>
                 <title>Gameplay</title>
                 <timeformat>Clock/Time Display</timeformat>
-                <timeformat0>{0}-Hour ({1})</timeformat0>
+                <timeformat0>{0}-Ora ({1})</timeformat0>
                 <language>Language</language>
-                <language2>For best results, please restart SimAirport after changing language.</language2>
+                <language2>Per miglior funzionamento, riavvia SimAirport dopo aver cambiato la lingua.</language2>
                 <zoneoverlays>Zone Overlays</zoneoverlays>
                 <autofocusbuildmenus>Build Menus: Search Auto-Focus</autofocusbuildmenus>
                 <holiday>Holiday Visuals</holiday>
@@ -159,15 +159,15 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
         <mods>
             <test>Load Test Airport</test>
             <steam>
-                <title>Upload &amp; Share on Steam Workshop</title>
-                <name>Name</name>
-                <description>Optional description...</description>
-                <ship>Save &amp; Publish</ship>
-                <success>Success!</success>
-                <fail>Failed!</fail>
+                <title>Carica &amp; Condividi in Steam Workshop</title>
+                <name>Nome</name>
+                <description>Descrizione facoltativa...</description>
+                <ship>Salva &amp; Pubblica</ship>
+                <success>Success0!</success>
+                <fail>Fallito!</fail>
                 <downloaded>Downloaded</downloaded>
-                <downloading>Downloading...</downloading>
-                <e_connect>Not connected to Steam.</e_connect>
+                <downloading>Scaricamento...</downloading>
+                <e_connect>Nonon connesso a Steam.</e_connect>
                 <e_validate>Item title cannot be empty.</e_validate>
                 <e_inprog>Another upload is already in progress.</e_inprog>
                 <e_unknown>Unexpected response in item: {0}</e_unknown>
@@ -175,13 +175,13 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
                 <step0>Preparing...</step0>
                 <step1>Creating save...</step1>
                 <step2>Creating preview...</step2>
-                <step3>Uploading...</step3>
+                <step3>Caricamento...</step3>
                 <step4>Preparing Config</step4>
                 <step5>Preparing Content</step5>
                 <step6>Uploading Content</step6>
                 <step7>Uploading Preview File</step7>
                 <step8>Committing Changes</step8>
-                <step9>Done</step9>
+                <step9>Fatto</step9>
                 <step10>Validating Mod...</step10>
                 <desc0>Please wait while we save your game, upload it to Steam, and Publish it on the SimAirport Workshop!</desc0>
                 <desc1>Your item has been updated.</desc1>
@@ -193,9 +193,9 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
                 </tt>
             </steam>
             <airports>
-                <title>Shared Airports</title>
-                <publish>Publish to Workshop</publish>
-                <browse>Browse Workshop</browse>
+                <title>Aereoporti condivisi</title>
+                <publish>Pubblica nel Workshop</publish>
+                <browse>Naviga nel Workshop</browse>
             </airports>
             <airlines>
                 <title>Custom Airline Mods</title>
@@ -246,9 +246,9 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
                     <title1>Aircraft Positions / Reference Points</title1>
                     <config>Config Path</config>
                     <image>Image Path</image>
-                    <fc0># Pilots</fc0>
+                    <fc0># Piloti</fc0>
                     <fc1># Flight Attendants</fc1>
-                    <fuel>Fuel Capacity</fuel>
+		    <fuel>Capacità carburante</fuel>
                     <crewchange>Crew Change %</crewchange>
                     <center>Center</center>
                     <side>Side</side>
@@ -263,8 +263,8 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
                 </edit>
             </aircraft>
             <tt0>
-                <title>Unauthorized</title>
-                <desc0>You may only update or publish mods that you are the original owner/author of.</desc0>
+                <title>Non Autorizzato</title>
+                <desc0>Puoi aggiornare o pubblicare solo mod di cui sei il proprietario / autore originale.</desc0>
             </tt0>
             <tt1>
                 
@@ -287,12 +287,12 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
             <title>Staff</title>
             <tabs>
                 <hire>
-                    <title>Hire Staff</title>
-                    <btn>Hire {0}</btn>
+                    <title>Assumi Staff</title>
+                    <btn>Assumi {0}</btn>
                 </hire>
                 <view>
-                    <title>Manage Staff</title>
-                    <row>{0} ({1} busy, {2} total)</row>
+                    <title>Gestisci Staff</title>
+                    <row>{0} ({1} busy, {2} totale)</row>
                     <tt>
                         <skill>Worker Skill</skill>
                         <locate>{0} to locate this worker</locate>
@@ -300,10 +300,10 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
                     </tt>
                 </view>
                 <kiosk>
-                    <title>Kiosk Scheduling</title>
+                    <title>Pianificazione del chiosco</title>
                 </kiosk>
                 <schedule>
-                    <title>Staff Scheduling</title>
+                    <title>Pianificazion dello Staff</title>
                 </schedule>
             </tabs>
         </staff>
@@ -400,19 +400,19 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
                 <objects>Objects</objects>
                 <zones>Zones</zones>
                 <utilities>Utilities</utilities>
-                <queues>Queues</queues>
-                <planning>Planning</planning>
-                <all>All</all>
-                <floors>Floors</floors>
-                <tools>Tools</tools>
-                <roads>Roads</roads>
+                <queues>Code</queues>
+                <planning>Progettazione</planning>
+                <all>Tutto</all>
+                <floors>Piani</floors>
+                <tools>Strumenti</tools>
+                <roads>Strade</roads>
                 <retail>Retail</retail>
-                <decor>Decor</decor>
+                <decor>Arredamento</decor>
                 <comfort>Comfort</comfort>
                 <ops note="Operations">Ops</ops>
-                <structures>Structures</structures>
-                <runwayupgrades>Runway Upgrades</runwayupgrades>
-                <gateupgrades>Gate Upgrades</gateupgrades>
+                <structures>Strutture</structures>
+                <runwayupgrades>Aggiorna Pista</runwayupgrades>
+                <gateupgrades>Aggiorna Gate</gateupgrades>
             </tabs>
         </build>
         <finance>
@@ -464,8 +464,8 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
                 <transport>
                     <title>Transport &amp; Deliveries</title>
                     <dropdown>
-                        <everyminutes>Every {0} Minutes</everyminutes>
-                        <everyhours>Every {0} Hours</everyhours>
+                        <everyminutes>Ogni {0} Minuti</everyminutes>
+                        <everyhours>Ogni {0} Ore</everyhours>
                         <hourly>Hourly</hourly>
                         <daily>Daily</daily>
                     </dropdown>
@@ -490,11 +490,11 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
                     <cost>{0}/service</cost>
                 </transport>
                 <runways>
-                    <title>Runways</title>
+                    <title>Pista</title>
                     <col>
-                        <runway>Runway</runway>
+                        <runway>Pista</runway>
                         <crosswind>Max Crosswind</crosswind>
-                        <status>Status</status>
+                        <status>Stato</status>
                     </col>
                     <restrictions>Runway Restrictions</restrictions>
                     <restriction_arrival>Allow or disallow arrivals (landings) for this runway</restriction_arrival>
@@ -805,9 +805,9 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <singleright>Right click</singleright>
         </mouse>
         <mapsize>
-            <medium>Medium</medium>
-            <large>Large</large>
-            <xl>Extra Large</xl>
+            <medium>Medio</medium>
+            <large>Largo</large>
+            <xl>Extra Largo</xl>
         </mapsize>
         <quality>
             <Fastest>Fastest</Fastest>
@@ -818,7 +818,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <Fantastic>Fantastic</Fantastic>
         </quality>
         <keyfunc>
-            <None>None</None>
+            <None>Nessuno</None>
             <FlightSchedule>FlightSchedule</FlightSchedule>
             <ProfitAndLoss>ProfitAndLoss</ProfitAndLoss>
             <FlightStatus>FlightStatus</FlightStatus>
@@ -866,17 +866,17 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <Hunger>Hunger</Hunger>
         </needs>
         <queueType>
-            <title>Queue</title>
+            <title>Coda</title>
             <Coach>Coach</Coach>
-            <FirstClass>First Class</FirstClass>
-            <FlightCrew>Flight Crew</FlightCrew>
+            <FirstClass>Prima Classe</FirstClass>
+            <FlightCrew>Equipaggio di volo</FlightCrew>
         </queueType>
         <timeslots>
             <EarlyMorning>Early AM</EarlyMorning>
             <Morning>Morning</Morning>
             <Afternoon>Afternoon</Afternoon>
-            <Night>Night</Night>
-            <Any>Any</Any>
+            <Night>Notte</Night>
+            <Any>Tutto</Any>
         </timeslots>
         <gatesize>
             <Small>Small</Small>
@@ -893,15 +893,15 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <FuelFailures>Refuel Success Rate</FuelFailures>
         </concerns>
         <flightstatus>
-            <canceled>Canceled</canceled>
-            <departed>Departed</departed>
-            <departing>Departing</departing>
-            <taxiing>Taxiing</taxiing>
-            <atgate>At Gate</atgate>
-            <approach>Final Approach</approach>
-            <delayedinc>Delayed - En Route</delayedinc>
-            <scheduled>Scheduled</scheduled>
-            <enroute>En Route</enroute>
+            <canceled>Cancellato</canceled>
+            <departed>Partito</departed>
+            <departing>In Partenza</departing>
+            <taxiing>Rullaggio</taxiing>
+            <atgate>Al Gate</atgate>
+            <approach>Approccio finale</approach>
+            <delayedinc>Ritardo - In Rotta</delayedinc>
+            <scheduled>Programmato</scheduled>
+            <enroute>In Rotta</enroute>
         </flightstatus>
         <flightstatusreason>
             <AirportInvalid>Airport operational requirements</AirportInvalid>
@@ -1193,7 +1193,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
     <!-- Zones (enum type) -->
     <zones>
         <None>
-            <name>None</name>
+            <name>Nessuno</name>
             <description>Use this to de-zone an area completely.</description>
         </None>
         <Ticketing>
@@ -1207,8 +1207,8 @@ One checked bag for free?! Not here.</description>
             <description><!-- deprecated --></description>
         </Restroom>
         <Security>
-            <name>Security</name>
-            <description>Security zones allow you to scrutinize your passengers and keep your airport safe and secure which your passengers will appreciate.  And occasionally you can even give them a little extra "pat down". </description>
+            <name>Sicurezza</name>
+            <description>Le zone di sicurezza ti consentono di controllare i passeggeri e mantenere il tuo aeroporto sicuro e protetto che i tuoi passeggeri apprezzeranno. E occasionalmente puoi anche dare loro un po 'di "pacca" in più.</description>
         </Security>
         <Garbage>
             <name>Garbage</name>
@@ -1235,31 +1235,31 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <k3>Unmet Demand</k3>
         </Pickups>
         <BaggageClaim>
-            <name>Baggage Claim</name>
+            <name>Ritiro Bagagli</name>
             <description>An area for passengers to pick up their checked baggage.</description>
         </BaggageClaim>
         <Cafe>
-            <name>Cafe</name>
+            <name>Bar</name>
             <description>This zone allows you to setup a retail space such as a Shopping Area or a Food Service area.  Passengers are happier when they're spending their money, and so are you!</description>
         </Cafe>
         <Office>
-            <name>Office</name>
+            <name>Ufficio</name>
             <description>This zone allows your Administrators &amp; Executives to have their own offices.  The execs require offices to be able to do their work and conduct research. </description>
         </Office>
         <Kitchen>
-            <name>Kitchen</name>
+            <name>Cucina</name>
             <description>All food served in your restaurants, cafes, and bars will need to be prepared &amp; cooked in a kitchen.</description>
         </Kitchen>
         <Storage>
-            <name>Storage</name>
+            <name>Magazzino</name>
             <description>This is where leftover supply boxes will be stored.</description>
         </Storage>
         <Male_Restroom>
-            <name>Male Restroom</name>
+            <name>Bagno dei Maschi</name>
             <description>Passengers won't be very happy if they don't have easy access to restrooms.  You'll use this zone to define the restrooms for your passengers to use.</description>
         </Male_Restroom>
         <Female_Restroom>
-            <name>Female Restroom</name>
+            <name>Bagno delle Femmine</name>
             <description>Passengers won't be very happy if they don't have easy access to restrooms.  You'll use this zone to define the restrooms for your passengers to use.</description>
         </Female_Restroom>
         <Electrical>
@@ -1267,12 +1267,12 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <description>This is where you'll run many of your airports wires to, including much of your low-voltage and audio wiring.</description>
         </Electrical>
         <First_Class_Lounge>
-            <name>First Class Lounge</name>
-            <description>Add a lounge for first class passengers to better accommodate their needs and desires.</description>
+            <name>Sala Prima Classe</name>
+            <description>Aggiungi una sala per i passeggeri di prima classe per soddisfare meglio i loro bisogni e desideri.</description>
         </First_Class_Lounge>
         <Flight_Crew_Lounge>
-            <name>Flight Crew Lounge</name>
-            <description>Add a lounge for flight crews where they can privately relax and wait to catch their flights.</description>
+            <name>Sala Equipaggio di volo</name>
+            <description>Aggiungi una sala per gli equipaggi di volo dove possono rilassarsi e aspettare in privato per prendere i loro voli.</description>
         </Flight_Crew_Lounge>
         <Maintenance>
             <name>Maintenance</name>
@@ -1282,7 +1282,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
     
     <money>
         <reason>
-            <BankLoan>Bank Loan</BankLoan>
+            <BankLoan>Prestiti Bancari</BankLoan>
             <BankLoanRepay>Bank Loan Repayment</BankLoanRepay>
             <BankLoanInterest>Bank Loan Interest</BankLoanInterest>
             <Wages>Wages</Wages>
@@ -1323,7 +1323,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <Infrastructure>Infrastruttura</Infrastructure>
             <Staff>Staff</Staff>
             <Retail>Affitto</Retail>
-            <Terminal_Fees>TTasse Terminal</Terminal_Fees>
+            <Terminal_Fees>Tasse Terminal</Terminal_Fees>
             <Runway_Fees>Tasse Pista</Runway_Fees>
             <Airline_Fees>Tasse Compagia Aerea</Airline_Fees>
             <Land_Purchase>Compra Terreno</Land_Purchase>
@@ -1420,11 +1420,11 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
     <!-- Terrain Tools (name) --> 
     <tools>
         <TaxiwayDirection>
-            <name>Taxiway Direction Tool</name>
+            <name>Stumento per direzione della Pista</name>
             <description>Click on existing taxiways to change its one-way direction setting.  Continue clicking to rotate through directions or to remove one-way entirely.</description>
         </TaxiwayDirection>
         <AddQueue>
-            <name>Expand Queue</name>
+            <name>Espandi la coda</name>
             <description>Click &amp; drag to create or extend a defined queue that can be assigned to objects to help improve their throughput.</description>
         </AddQueue>
         <RemoveQueue>
@@ -1432,13 +1432,13 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <description>Click &amp; drag to shorten the end of a queue.</description>
         </RemoveQueue>
         <VisualizeQueue>
-            <name>Visualize Queues</name>
+            <name>Visualizza Coda</name>
             <description>A visualization tool which shows all queues and assignments in your airport -- all at once.</description>
         </VisualizeQueue>
         <AreaSell>
-            <name>Area Sell</name>
+            <name>Vendi Area</name>
             <description>Draw over the top of Supply Piles in order to sell multiple at once.</description>
-            <tt>Sell For</tt>
+            <tt>Vendi per</tt>
         </AreaSell>
         <AsphaltRunway>
             <name>Asphalt Runway</name>
@@ -1450,7 +1450,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <description>Click &amp; drag to create (or extend an existing) runways.  Note extending or intersecting an existing runway requires repainting the entire runway.</description>
         </ConcreteRunway>
         <Clear>
-            <name>Clear</name>
+            <name>Elimina</name>
             <description>Dismantles objects, removes interior walls, and removes flooring.</description>
         </Clear>
         <ClearUtilities>
@@ -1458,12 +1458,12 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <description>Removes baggage conveyors, fuel pipes, and dismantles utility-related objects.</description>
         </ClearUtilities>
         <Demolish>
-            <name>Demolish</name>
-            <description>Removes walls and indoor flooring down to grass.</description>
+            <name>Demolisci</name>
+            <description>Rimuovi le pareti e i pavimenti interni fino all'erba.</description>
         </Demolish>
         <IndoorFlooring>
             <name><!-- inherited from material --></name>
-            <description>A decorative indoor flooring (+5% movement).</description>
+            <description>A decorative indoor flooring (+5% movimento).</description>
         </IndoorFlooring>
         <Fence>
             <name><!-- inherited from material --></name>
@@ -1510,7 +1510,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <description>Removes underground baggage conveyors &amp; fuel pipelines.</description>
             <tt1>{0} conveyors</tt1>
             <tt2>{0} fuel pipes</tt2>
-            <tt3>{0} objects</tt3>
+            <tt3>{0} oggetti</tt3>
         </DemolishUtility>
         <ShowWires>
             <name>Show Wires</name>
@@ -1518,9 +1518,9 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         </ShowWires>
         <Conveyor>
             <name>Conveyor Network</name>
-            <blue>BLUE</blue>
-            <pink>PINK</pink>
-            <green>GREEN</green>
+            <blue>BLU</blue>
+            <pink>ROSA</pink>
+            <green>VERDE</green>
             <d0>Connects underground conveyor network for: Ticketing Desks, Hubs, Endpoints, Depots, Carousels</d0>
             <d1>Conveyor Network Overview</d1>
             <d2>Connect {0} to {1} and {2} to {3}</d2>
@@ -1536,8 +1536,8 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
     
     <research>
         <Finance>
-            <name>Finance</name>
-            <row0>Ability to hire a CFO.</row0>
+            <name>Finanza</name>
+            <row0>Permette di Assumere il CFO.</row0>
             <description>The CFO allows you to conduct additional research and unlock various finance-related utilities such as advanced reports, bank loans, lower taxes, and improved profit margins.</description>
         </Finance>
         <BankLoans>
@@ -1583,11 +1583,11 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <description>Light rail reduces traffic congestion by offering passengers a convenient way to arrive and depart from your airport.</description>
         </Lightrail>
         <LandExpansion>
-            <name>Land Expansion</name>
+            <name>Espansione Terreno</name>
             <row0>Allows the purchase of additional map parcels.</row0>
         </LandExpansion>
         <Operations2>
-            <name>Operations II</name>
+            <name>Operazioni II</name>
             <row0>Allows management of bus, garbage, retail, and light rail services via the Operations Control Panel.</row0>
         </Operations2>
         <AviationOps>
@@ -1607,16 +1607,16 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <row0>Allows gates to be upgraded with Fuel Ports that can deliver jet fuel right where it's needed!</row0>
         </FuelPorts>
         <AdvTicketing>
-            <name>Advanced Ticketing</name>
+            <name>Ticketing avanzato</name>
             <row0>Ability to assign Aircraft Gates to specific Ticketing Desks.</row0>
         </AdvTicketing>
         <AdvSecurity>
-            <name>Advanced Security</name>
+            <name>Sicurezza avanzata</name>
             <row0>Access to Remote Security Stations &amp; Remote Baggage Scanners for more efficient Security Operations.</row0>
             <description>Ability to assign ID Check Stands to Baggage Scanners; and Baggage Scanners to Metal Detectors / Body Scanners -- for precise flow control.</description>
         </AdvSecurity>
         <Construction>
-            <name>Construction</name>
+            <name>Construzione</name>
             <row0>Allows hiring a Construction Foreman.</row0>
         </Construction>
         <IntersectingRunways>
