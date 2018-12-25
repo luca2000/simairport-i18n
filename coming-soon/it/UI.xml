@@ -1,4 +1,4 @@
-<UI>
+l<UI>
     <currency>€</currency>
     
     <!-- Top left buttons -->
@@ -18,9 +18,9 @@
     <modal>
         <EADialog>
             <btn_forums>Discussion Forums</btn_forums>
-            <btn_report>Report a Bug</btn_report>
+            <btn_report>Segnala un Bug</btn_report>
             <btn_steam>Steam Workshop</btn_steam>
-            <text>Benvenuto su SimAirport Early Access! Speriamo che tu ti diverta con il gioco.  Ti invitiamo a visitare il forum, essere attivo; partecipare nella community, e prendere parte in modo attivo al processo di sviluppo, insieme agli sviluppatori.
+            <text>Benvenuto su SimAirport in accesso anticipato! Speriamo che tu ti diverta con il gioco.  Ti invitiamo a visitare il forum, essere attivo; partecipare nella community, e prendere parte in modo attivo al processo di sviluppo, insieme agli sviluppatori.
         
 Grazie per il tuo supporto e per l'aiuto che ci dai per far diventare SimAirport il migliore gioco gestionale tycoon mai creato!</text>
         </EADialog>
@@ -30,7 +30,7 @@ Grazie per il tuo supporto e per l'aiuto che ci dai per far diventare SimAirport
             <optionsbtn>Opzioni</optionsbtn>
             <exitbtn>Esci da SimAirport</exitbtn>
             <copyright>Copyright 2018, LVGameDev LLC.  Tutti i diritti riservati.  
-SimAirport is a trademark of LVGameDev LLC.</copyright>
+SimAirport è un marchio di LVGameDev LLC.</copyright>
         </mainmenu>
         <game>
             <new>
@@ -109,7 +109,7 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
                 <title>Impostazioni Grafiche</title>
                 <weather>Effetti Grafici del Meteo</weather>
                 <daynightcycle>Ciclo Giorno/Notte</daynightcycle>
-                <shadowsAO>Shadows and AO</shadowsAO>
+                <shadowsAO>Sfumature e AO</shadowsAO>
                 <fullscreen>Modalità a Schermo Intero</fullscreen>
                 <resolution>Risoluzione</resolution>
                 <quality>Qualità</quality>
@@ -166,7 +166,7 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
                 <success>Success!</success>
                 <fail>Failed!</fail>
                 <downloaded>Downloaded</downloaded>
-                <downloading>Downloading...</downloading>
+                <downloading>Scaricamento...</downloading>
                 <e_connect>Not connected to Steam.</e_connect>
                 <e_validate>Item title cannot be empty.</e_validate>
                 <e_inprog>Another upload is already in progress.</e_inprog>
@@ -181,7 +181,7 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
                 <step6>Uploading Content</step6>
                 <step7>Uploading Preview File</step7>
                 <step8>Committing Changes</step8>
-                <step9>Done</step9>
+                <step9>Fine</step9>
                 <step10>Validating Mod...</step10>
                 <desc0>Please wait while we save your game, upload it to Steam, and Publish it on the SimAirport Workshop!</desc0>
                 <desc1>Your item has been updated.</desc1>
@@ -212,7 +212,7 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
                 <refresh>Refresh</refresh>
                 <none>None Selected</none>
                 <fleetcount>{0} Aircraft Types in Fleet</fleetcount>
-                <path>Path</path>
+                <path>Percorso</path>
                 <status>Current Game Status</status>
                 <notimported>Not Imported</notimported>
                 <art>Has Custom Art</art>
@@ -258,8 +258,8 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
                     <strobe1>Strobe Size</strobe1>
                     <headlight0>Headlight</headlight0>
                     <headlight1>Headlight Size</headlight1>
-                    <width>Width</width>
-                    <height>Height</height>
+                    <width>Larghezza</width>
+                    <height>Altezza</height>
                 </edit>
             </aircraft>
             <tt0>
@@ -287,7 +287,7 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
             <title>Staff</title>
             <tabs>
                 <hire>
-                    <title>Hire Staff</title>
+                    <title>Assumi Staff</title>
                     <btn>Hire {0}</btn>
                 </hire>
                 <view>
@@ -308,7 +308,7 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
             </tabs>
         </staff>
         <research>
-            <title>Research &amp; Development</title>
+            <title>Ricerca &amp; Sviluppo</title>
             <edgeNote>SimAirport Edge Build Only:  Right-click for instant research.</edgeNote>
         </research>
         <flightmgr>
@@ -360,7 +360,7 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
                 <t3>
                     <title>Aircraft Types</title>
                     <tt>
-                        <desc1>{0} Max Passengers</desc1>
+                        <desc1>{0} Max Passeggeri</desc1>
                         <desc2>Min. Gate Size:</desc2>
                         <desc3>Min. Runway Length:</desc3>
                     </tt>
@@ -412,7 +412,7 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
                 <ops note="Operations">Ops</ops>
                 <structures>Structures</structures>
                 <runwayupgrades>Runway Upgrades</runwayupgrades>
-                <gateupgrades>Gate Upgrades</gateupgrades>
+                <gateupgrades>Aggiorna Gate</gateupgrades>
             </tabs>
         </build>
         <finance>
@@ -677,7 +677,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <desc4>Estimated based on all flights being full and zero cancellations, zero delays, zero missed flights.</desc4>
             <desc5>Recent Transactions</desc5>
             <desc6>No Recent Transactions</desc6>
-            <desc7>Taxes</desc7>
+            <desc7>Tasse</desc7>
         </bank>
         <airlines>
             <title>Airline Interest</title>
