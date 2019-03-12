@@ -18,9 +18,9 @@
     <modal>
         <EADialog>
             <btn_forums>Discussion Forums</btn_forums>
-            <btn_report>Report a Bug</btn_report>
+            <btn_report>Riporta un Bug</btn_report>
             <btn_steam>Steam Workshop</btn_steam>
-            <text>Benvenuto su SimAirport Early Access! Speriamo che tu ti diverta con il gioco.  Ti invitiamo a visitare il forum, essere attivo; partecipare nella community, e prendere parte in modo attivo al processo di sviluppo, insieme agli sviluppatori.
+            <text>Benvenuto su SimAirport in versione anticipata! Speriamo che tu ti diverta con il gioco.  Ti invitiamo a visitare il forum, essere attivo; partecipare nella community, e prendere parte in modo attivo al processo di sviluppo, insieme agli sviluppatori.
         
 Grazie per il tuo supporto e per l'aiuto che ci dai per far diventare SimAirport il migliore gioco gestionale tycoon mai creato!</text>
         </EADialog>
@@ -125,23 +125,23 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
                 <cameracenter>Camera Center</cameracenter>
                 <mouseposition>Mouse Position</mouseposition>
                 <mousepan>Middle Mouse Pan</mousepan>
-                <zoomspeed>Zoom Speed</zoomspeed>
+                <zoomspeed>Velocitá di zoom</zoomspeed>
                 <panspeed>Pan Speed</panspeed>
             </camera>
             <autosave>
-                <title>Auto-save</title>
+                <title>Auto-salvataggio</title>
             </autosave>
             <sound>
-                <title>Sound</title>
-                <game>Game Volume</game>
+                <title>Suono</title>
+                <game>Volume di gioco</game>
                 <crowd>Crowd Volume</crowd>
             </sound>
             <gameplay>
-                <title>Gameplay</title>
-                <timeformat>Clock/Time Display</timeformat>
-                <timeformat0>{0}-Hour ({1})</timeformat0>
-                <language>Language</language>
-                <language2>For best results, please restart SimAirport after changing language.</language2>
+                <title>Partita</title>
+                <timeformat>Orologio/Time Display</timeformat>
+                <timeformat0>{0}-Ora ({1})</timeformat0>
+                <language>Lingua</language>
+                <language2>Per un esperienza ottimale, riavvia SimAirport dopo aver cambiato la lingua.</language2>
                 <zoneoverlays>Zone Overlays</zoneoverlays>
                 <autofocusbuildmenus>Build Menus: Search Auto-Focus</autofocusbuildmenus>
                 <holiday>Holiday Visuals</holiday>
@@ -151,7 +151,7 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
             <hotkeys>
                 <title>Hotkey Bindings</title>
                 <col0>Keyboard Key</col0>
-                <col1>Game Function</col1>
+                <col1>Funzioni del gioco</col1>
                 <reset0>Reset ALL</reset0>
                 <reset1>Reset to DEFAULTS</reset1>
             </hotkeys>
@@ -159,15 +159,15 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
         <mods>
             <test>Load Test Airport</test>
             <steam>
-                <title>Upload &amp; Share on Steam Workshop</title>
-                <name>Name</name>
+                <title>Carica &amp; Condividi sul Workshop</title>
+                <name>Nome</name>
                 <description>Optional description...</description>
-                <ship>Save &amp; Publish</ship>
-                <success>Success!</success>
-                <fail>Failed!</fail>
-                <downloaded>Downloaded</downloaded>
-                <downloading>Downloading...</downloading>
-                <e_connect>Not connected to Steam.</e_connect>
+                <ship>Salva &amp; Pubblica</ship>
+                <success>Successo!</success>
+                <fail>Fallito!</fail>
+                <downloaded>Scaricato</downloaded>
+                <downloading>Scaricando...</downloading>
+                <e_connect>Non connesso con Steam.</e_connect>
                 <e_validate>Item title cannot be empty.</e_validate>
                 <e_inprog>Another upload is already in progress.</e_inprog>
                 <e_unknown>Unexpected response in item: {0}</e_unknown>
@@ -181,7 +181,7 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
                 <step6>Uploading Content</step6>
                 <step7>Uploading Preview File</step7>
                 <step8>Committing Changes</step8>
-                <step9>Done</step9>
+                <step9>Fine</step9>
                 <step10>Validating Mod...</step10>
                 <desc0>Please wait while we save your game, upload it to Steam, and Publish it on the SimAirport Workshop!</desc0>
                 <desc1>Your item has been updated.</desc1>
@@ -199,7 +199,7 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
             </airports>
             <airlines>
                 <title>Custom Airline Mods</title>
-                <create>Create Airline</create>
+                <create>Crea Compagnia Aerea</create>
                 <browse>Browse Folder</browse>
                 <import>Import into Game</import>
                 <reimport>Re-Import from Disk</reimport>
@@ -209,8 +209,8 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
                 <edit>Edit In-Game</edit>
                 <open>Open Folder</open>
                 <demo>Demo Spawn</demo>
-                <refresh>Refresh</refresh>
-                <none>None Selected</none>
+                <refresh>Ricarica</refresh>
+		    <none>Niente Selezionato</none>
                 <fleetcount>{0} Aircraft Types in Fleet</fleetcount>
                 <path>Path</path>
                 <status>Current Game Status</status>
@@ -263,7 +263,7 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
                 </edit>
             </aircraft>
             <tt0>
-                <title>Unauthorized</title>
+                <title>Non Autorizzato</title>
                 <desc0>You may only update or publish mods that you are the original owner/author of.</desc0>
             </tt0>
             <tt1>
@@ -287,12 +287,12 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
             <title>Staff</title>
             <tabs>
                 <hire>
-                    <title>Hire Staff</title>
-                    <btn>Hire {0}</btn>
+                    <title>Assumi Staff</title>
+                    <btn>Assumi {0}</btn>
                 </hire>
                 <view>
-                    <title>Manage Staff</title>
-                    <row>{0} ({1} busy, {2} total)</row>
+                    <title>Controlla Staff</title>
+                    <row>{0} ({1} busy, {2} totale)</row>
                     <tt>
                         <skill>Worker Skill</skill>
                         <locate>{0} to locate this worker</locate>
@@ -300,10 +300,10 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
                     </tt>
                 </view>
                 <kiosk>
-                    <title>Kiosk Scheduling</title>
+                    <title>Orari Chiostri</title>
                 </kiosk>
                 <schedule>
-                    <title>Staff Scheduling</title>
+                    <title>Orari Staff</title>
                 </schedule>
             </tabs>
         </staff>
@@ -312,13 +312,13 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
             <edgeNote>SimAirport Edge Build Only:  Right-click for instant research.</edgeNote>
         </research>
         <flightmgr>
-            <title>Flight Management</title>
+            <title>Controllo Voli</title>
             <offers>
                 <title>Available Flight Contracts</title>
-                <col0>Airline</col0>
-                <col1>Rating</col1>
+                <col0>Compagnia</col0>
+                <col1>Valutazione</col1>
                 <col2>Signing Bonus</col2>
-                <legend>Flight Times:</legend>
+                <legend>Tempo Volo:</legend>
                 <tt>
                     <desc1>{0} Types of Aircraft in Fleet</desc1>
                     <desc2>Click to view additional details about {0}</desc2>
@@ -334,10 +334,10 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
                 </t0>
                 <t1>
                     <title>Deals &amp; Negotiation</title>
-                    <col0>Interests</col0>
+                    <col0>Interesti</col0>
                     <col1>Desirability</col1>
-                    <col2>Quantity</col2>
-                    <col3>Actions</col3>
+                    <col2>Quantitá</col2>
+                    <col3>Azioni</col3>
                 </t1>
                 <t2>
                     <title>Flight Contracts</title>
@@ -346,7 +346,7 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
                     <col2>Departure Slot</col2>
                     <col3>Gate/Rwy (min)</col3>
                     <tt>
-                        <title>{0} {1} Offers</title>
+                        <title>{0} {1} Offerte</title>
                         <desc1>Total Signing Bonus: {0}</desc1>
                         <desc2>Immediately collects the signing bonus and allows these offers to be added to your master flight schedule.</desc2>
                         <desc3>{0} offers are LOCKED</desc3>
@@ -358,9 +358,9 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
                     </tt>
                 </t2>
                 <t3>
-                    <title>Aircraft Types</title>
+                    <title>Tipo Aereo</title>
                     <tt>
-                        <desc1>{0} Max Passengers</desc1>
+                        <desc1>{0} Max Passeggeri</desc1>
                         <desc2>Min. Gate Size:</desc2>
                         <desc3>Min. Runway Length:</desc3>
                     </tt>
@@ -381,44 +381,44 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
             <col0>Gate</col0>
             <col1>Flight #</col1>
             <col2>Aircraft</col2>
-            <col3>Arrival</col3>
-            <col4>Depart.</col4>
-            <col5>Actual Arrival</col5>
-            <col6>Actual Depart.</col6>
+            <col3>Arrivo</col3>
+            <col4>Partenza</col4>
+            <col5>Arrivo Effettivo</col5>
+            <col6>Partenza Effettiva</col6>
             <col7>Pax #s</col7>
-            <col8>Status</col8>
+            <col8>Stato</col8>
             <tt>
-                <title>Edit Columns</title>
+                <title>Modifica Colonne</title>
                 <desc1>Click here to change which columns are shown or hidden.  Use the resize handle (bottom right) to resize the window.</desc1>
             </tt>
         </flightstatus>
         <build>
             <tabs>
-            	<searchresults>Search...</searchresults>
-            	<allresults>All Results</allresults>
-                <construction>Construction</construction>
-                <objects>Objects</objects>
-                <zones>Zones</zones>
+            	<searchresults>Cerca...</searchresults>
+            	<allresults>Tutti i Risultati</allresults>
+                <construction>Costruzione</construction>
+                <objects>Oggetti</objects>
+                <zones>Zone</zones>
                 <utilities>Utilities</utilities>
-                <queues>Queues</queues>
-                <planning>Planning</planning>
-                <all>All</all>
-                <floors>Floors</floors>
-                <tools>Tools</tools>
-                <roads>Roads</roads>
-                <retail>Retail</retail>
+                <queues>Fila</queues>
+                <planning>Progetto</planning>
+                <all>Tutto</all>
+                <floors>Porte</floors>
+                <tools>Strumenti</tools>
+                <roads>Strade</roads>
+                <retail>Negozi</retail>
                 <decor>Decor</decor>
                 <comfort>Comfort</comfort>
-                <ops note="Operations">Ops</ops>
-                <structures>Structures</structures>
-                <runwayupgrades>Runway Upgrades</runwayupgrades>
-                <gateupgrades>Gate Upgrades</gateupgrades>
+                <ops note="Operazione">Ops</ops>
+                <structures>Strutture</structures>
+                <runwayupgrades>Aggiornamenti Pista</runwayupgrades>
+                <gateupgrades>Aggiornamenti Gate</gateupgrades>
             </tabs>
         </build>
         <finance>
             <tabs>
                 <loans>
-                    <title>Bank Loans</title>
+                    <title>Prestiti Bancari</title>
                     <loan>Current Bank Loan</loan>
                     <interest>Current Daily Interest</interest>
                     <max>Current Maximum Loan</max>
@@ -442,7 +442,7 @@ Questo eliminerà per sempre il salvataggio dal tuo computer. Sei SICURO di vole
                     <expenses>Expenses</expenses>
                 </cashflow>
                 <valuation>
-                    <title>Airport Value</title>
+                    <title>Valore dell'Aeroporto</title>
                     <value>Current Value</value>
                     <total>Total Airport Valuation</total>
                 </valuation>
@@ -464,15 +464,15 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
                 <transport>
                     <title>Transport &amp; Deliveries</title>
                     <dropdown>
-                        <everyminutes>Every {0} Minutes</everyminutes>
-                        <everyhours>Every {0} Hours</everyhours>
+                        <everyminutes>Ogni {0} Minuti</everyminutes>
+                        <everyhours>Ogni {0} Ore</everyhours>
                         <hourly>Hourly</hourly>
-                        <daily>Daily</daily>
+                        <daily>Giornalmente</daily>
                     </dropdown>
                     <rows>
                         <Buses>
                             <title>Buses</title>
-                            <description>- {0}x capacity, {1}x per interval</description>
+                            <description>- {0}x capacità, {1}x per interval</description>
                         </Buses>
                         <Retail>
                             <title>Retail</title>
