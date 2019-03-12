@@ -41,7 +41,7 @@
             <description></description>
         </Passenger>
         <Pilot>
-            <name>Pilot</name>
+            <name>Pilota</name>
             <description></description>
         </Pilot>
         <RampAgent>
@@ -49,7 +49,7 @@
             <description>Aircraft STUCK?  Ramp agent to the rescue!  They help "un-stick" all the aircraft on the ground for a small one-time fee.  When their work is done, they'll leave.   Also known as the "Golden Towbar Award".</description>
         </RampAgent>
         <Security>
-            <name>Security</name>
+            <name>Guardia</name>
             <description>Clears bags and passengers as they make it through the airport.</description>
         </Security>
         <Staff>
@@ -81,11 +81,11 @@
             <description><!-- not used --></description>
         </FuelDeliveryTruck>
         <FuelTruck>
-            <name>Fuel Truck</name>
+            <name>Camion di Carburante</name>
             <description><!-- not used --></description>
         </FuelTruck>
         <GarbageTruck>
-            <name>Garbage Truck</name>
+            <name>Camion della Spazzatura</name>
             <description><!-- not used --></description>
         </GarbageTruck>
         <GolfCart>
@@ -93,11 +93,11 @@
             <description><!-- not used --></description>
         </GolfCart>
         <PassengerBus>
-            <name>Passenger Bus</name>
+            <name>Bus Passeggeri</name>
             <description><!-- not used --></description>
         </PassengerBus>
         <PassengerTaxi>
-            <name>Passenger Taxi</name>
+            <name>Taxi Passeggeri</name>
             <description><!-- not used --></description>
         </PassengerTaxi>
         <PassengerVehicle>
@@ -111,10 +111,10 @@
     </Agents>
     <Objects>
         <generic>
-            <AircraftGate>Aircraft Gate</AircraftGate>
+            <AircraftGate>Gate Aereo</AircraftGate>
             <ConveyorTransition>Conveyor Transition</ConveyorTransition>
-            <Stairs>Stairway</Stairs>
-            <Escalator>Escalator</Escalator>
+            <Stairs>Scale</Stairs>
+            <Escalator>Scale Mobili</Escalator>
         </generic>
         
         <!-- non-placeable -->
@@ -122,7 +122,7 @@
             <name>Dirty Floor</name>
         </DirtyFloor>
         <TrashBag>
-            <name>Trash Bag</name>
+            <name>Cestino</name>
         </TrashBag>
         
         
@@ -151,7 +151,7 @@
         
         <!-- gate upgrades -->
         <FuelPort>
-	        <name>Fuel Port</name>
+	        <name>Cisterna Carburante</name>
 	        <description>An output port that can be placed on gates and connected to underground pipelines to enable faster refueling services.</description>
         </FuelPort>
         
@@ -172,7 +172,7 @@
             <description>Helps keep passengers entertained while earning you $5 per transaction in the process.</description>
         </ApparelStand>
         <ATCTower>
-            <name>ATC Tower</name>
+            <name> Torre di Controllo</name>
             <description>Allows scheduling of more than 10 flights per day.</description>
         </ATCTower>
         <ATM>
